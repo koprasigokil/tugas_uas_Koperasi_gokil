@@ -1,0 +1,119 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.columnleft {
+  float: left;
+  width: 55%;
+  padding: 15px;
+  background-color: white;
+}
+
+.columnright {
+  float: right;
+  width: 45%;
+  padding: 15px;
+  background-color: white;
+}
+
+Button {
+  padding: 3px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+h1 {
+  color: #333;
+  text-align: left;
+}
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+.form-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.card {
+  width: 100%;
+}
+
+.card-header,
+.card-footer {
+  text-align: left;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.table th,
+.table td {
+  text-align: center;
+}
+
+header,
+footer {
+  background-color: #30d5c8; /* Mengubah warna latar belakang menjadi biru tosca */
+}
